@@ -1,8 +1,6 @@
 [user]
     name = li.tianhua
     email = li.tianhua@yihe.io
-[push]
-    default = simple
 [format]
     pretty = medium
 [core]
@@ -21,11 +19,13 @@
     untracked = cyan
 [diff]
     tool = vimdiff
-[merge]
-    tool = vimdiff
-[difftool]
-    prompt = false
+# [difftool]
+#     prompt = false
+[difftool "vimdiff"]
+    path = nvim
 [log]
     date = iso
+[push]
+    default = simple
 [pull]
     rebase = true

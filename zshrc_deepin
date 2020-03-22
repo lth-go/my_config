@@ -87,6 +87,9 @@ export LESS_TERMCAP_us=$'\e[01;38;5;146m' # begin underline
 export LESS_TERMCAP_ue=$'\e[0m'           # end underline
 export GROFF_NO_SGR=1                     # for gnome-terminal
 
+# nvim替代less
+export MANPAGER='nvim +Man!'
+
 # deepin terminator颜色显示
 TERM=xterm-256color
 

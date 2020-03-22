@@ -72,5 +72,7 @@
   ],
   "python.formatting.autopep8Args": [
     "--ignore=E116,E501"
-  ]
+  ],
+  "python.venvPath": "/work/python_venv",
+  "python.pythonPath": "python"
 }
